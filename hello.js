@@ -13,9 +13,36 @@ console.log(typeof 7);
 var a=false;
 if(a)console.log("true");
 else console.log("false");
-*/
+
 
 
 //function
  a=(a,b)=>{console.log(a+b)}
-a(7,1);
+a(7,1);*/
+
+
+//array
+
+var a=[1,2,3,4,5,6,7];
+
+for(i=0;i<a.length;i++)
+{
+    console.log(a[i]+" ");
+}
+
+var b=a;
+
+
+for(i=0;i<b.length;i++)
+{
+    console.log(b[i]+" ");
+}
+
+b[0]=100;
+
+
+for(i=0;i<b.length;i++)
+{
+    console.log(b[i]+" ");
+}
+
