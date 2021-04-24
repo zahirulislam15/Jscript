@@ -17,6 +17,12 @@ else console.log("false");
 
 
 //function
+function a(a,b,c)
+{
+ console.log((a*b)+c);
+}
+a(12,2,3);
+
  a=(a,b)=>{console.log(a+b)}
 a(7,1);*/
 
